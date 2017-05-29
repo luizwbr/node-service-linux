@@ -1,5 +1,5 @@
 {
-  "name": "node-linux",
+  "name": "node-service-linux",
   "version": "0.1.11",
   "description": "Support daemon creation and management on Linux.",
   "keywords": [
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/coreybutler/node-linux.git"
+    "url": "git://github.com/PauloFerreira25/node-service-linux.git"
   },
   "license": "MIT",
   "engine":"node >= 0.10.10"

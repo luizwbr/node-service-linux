@@ -35,7 +35,7 @@ node-linux has a utility to run Node.js scripts as Linux daemons.
 To create a service with node-linux, prepare a script like:
 
 ```js
-  var Service = require('node-linux').Service;
+  var Service = require('node-service-linux').Service;
 
   // Create a new service object
   var svc = new Service({
@@ -133,7 +133,7 @@ Just pass the requested user/group values at startup
 Uninstalling a previously created service is syntactically similar to installation.
 
 ```js
-  var Service = require('node-linux').Service;
+  var Service = require('node-service-linux').Service;
 
   // Create a new service object
   var svc = new Service({
