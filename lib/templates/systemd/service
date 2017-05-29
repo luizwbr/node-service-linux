@@ -1,5 +1,6 @@
 [Unit]
 Description={{description}}
+After=network.target
 
 [Service]
 ExecStart={{execpath}} {{nodescript}}
